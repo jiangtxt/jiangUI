@@ -12,7 +12,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "build:lib": "vite build --config ./build/lib.config.js"
+    "build:lib": "vite build --config ./build/lib.config.js",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "vue": "^3.4.21"
