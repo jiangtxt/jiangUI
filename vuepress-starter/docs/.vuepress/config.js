@@ -3,6 +3,7 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
+  Base:'/jiangUI/',
   lang: 'en-US',
 
   title: 'jiang-UI',
